@@ -42,5 +42,6 @@ where:
 `columnsCount` - columns count for palette in graphics editor (GIMP, inkscape)
 
 
-2) Place generated *.gpl file to /usr/share/[APP]/palettes/
+2) Place generated *.gpl file to `/usr/share/[APP]/palettes/`
+
 where `[APP]` gimp or inkscape

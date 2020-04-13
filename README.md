@@ -28,14 +28,19 @@ Source file must contains colors in hex, for example in.txt:
 
 Usage:
 1) Generate palette:
+
 ```
 gplpalette.CreatePaletteFromFile(inputFileName string, paletteName string, columnsCount int)
 ```
 
 where: 
+
 `inputFileName` - path to source file with colors as hex string
+
 `paletteName` - name of palette
+
 `columnsCount` - columns count for palette in graphics editor (GIMP, inkscape)
+
 
 2) Place generated *.gpl file to /usr/share/<APP>/palettes/
 where `<APP>` gimp or inkscape
